@@ -30,6 +30,7 @@ client_name = 'pantheon-parental-controls-client'
 daemon_path = join_paths(prefix, get_option('bindir'))
 daemon_name = 'pantheon-parental-controls-daemon'
 daemon_conf_dir = join_paths(prefix, get_option('datadir'), 'pantheon-parental-controls')
+daemon_local_conf_dir = join_paths(get_option('sharedstatedir'), 'pantheon-parental-controls')
 
 polkit_dep = dependency('polkit-gobject-1')
 polkit_actiondir = polkit_dep.get_pkgconfig_variable('actiondir', define_variable: ['prefix', prefix])

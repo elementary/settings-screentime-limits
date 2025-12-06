@@ -29,6 +29,7 @@ namespace PC.Constants {
     public const string PARENTAL_CONTROLS_ACTION_ID = "io.elementary.settings.screentime-limits.administration";
     public const string PLANK_CONF_DIR = "/.config/plank/dock1/settings";
     public const string DAEMON_CONF_FILE = "@DAEMON_CONF_DIR@/daemon.conf";
+    public const string DAEMON_LOCAL_CONF_FILE = "@DAEMON_LOCAL_CONF_DIR@/daemon.conf";
     public const string[] DAEMON_IGNORED_USERS = { "lightdm" };
     public const string DAEMON_KEY_ACTIVE = "Active";
     public const string DAEMON_KEY_TARGETS = "Targets";

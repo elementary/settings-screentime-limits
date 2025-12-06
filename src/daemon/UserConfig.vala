@@ -55,7 +55,7 @@ public class PC.Daemon.UserConfig : GLib.Object {
         }
 
         try {
-            key.load_from_file (Constants.DAEMON_CONF_FILE,
+            key.load_from_file (Constants.DAEMON_LOCAL_CONF_FILE,
                                 KeyFileFlags.KEEP_COMMENTS | KeyFileFlags.KEEP_TRANSLATIONS);
 
         } catch (KeyFileError e) {
@@ -74,6 +74,31 @@ public class PC.Daemon.UserConfig : GLib.Object {
         var file = File.new_for_path (Constants.DAEMON_CONF_FILE);
         if (!file.query_exists ()) {
             critical ("Could not find daemon config file: %s does not exist".printf (file.get_path ()));
+            return false;
+        }
+
+        var local_file = File.new_for_path (Constants.DAEMON_LOCAL_CONF_FILE);
+        if (local_file.query_exists ()) {
+            return true;
+        }
+
+        var local_dir = local_file.get_parent ();
+        try {
+            local_dir.make_directory_with_parents ();
+        } catch (Error err) {
+            critical ("Could not create daemon local config dir. path=\"%s\": %s", local_dir.get_path (), err.message);
+            return false;
+        }
+
+        try {
+            // Files in packages are read-only on some packaging system,
+            // so inheriting permission from the original config file can result
+            // read-only local config file
+            // So, use default permission instead of inheriting from the original
+            file.copy (local_file, TARGET_DEFAULT_PERMS);
+        } catch (Error err) {
+            critical ("Could not copy daemon local config file. src=\"%s\" dst=\"%s\": %s",
+                        file.get_path (), local_file.get_path (), err.message);
             return false;
         }
 
@@ -162,7 +187,7 @@ public class PC.Daemon.UserConfig : GLib.Object {
 
     private void save () {
         try {
-            key.save_to_file (Constants.DAEMON_CONF_FILE);
+            key.save_to_file (Constants.DAEMON_LOCAL_CONF_FILE);
         } catch (FileError e) {
             warning (e.message);
             return;
