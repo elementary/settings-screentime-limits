@@ -18,7 +18,6 @@ You'll need the following dependencies:
 * libpolkit-gobject-1-dev
 * libswitchboard-3-dev
 * meson >= 0.46.1
-* policykit-1
 * valac
 
 Run `meson` to configure the build environment and then `ninja` to build
