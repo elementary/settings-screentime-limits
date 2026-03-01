@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-19 20:56+0000\n"
+"POT-Creation-Date: 2026-03-01 16:22+0000\n"
 "PO-Revision-Date: 2024-08-07 00:16+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Italian <https://l10n.elementary.io/projects/switchboard/"
@@ -20,7 +20,9 @@ msgstr ""
 "X-Generator: Weblate 5.6.2\n"
 
 #: data/screentime-limits.metainfo.xml.in:10
-msgid "Screen Time &amp; Limits Settings"
+#, fuzzy
+#| msgid "Screen Time &amp; Limits Settings"
+msgid "Screen Time & Limits Settings"
 msgstr "Tempo di utilizzo e limitazioni"
 
 #: data/screentime-limits.metainfo.xml.in:11
@@ -82,7 +84,9 @@ msgid "New colorful avatar fallback"
 msgstr ""
 
 #: data/screentime-limits.metainfo.xml.in:91
-msgid "Rename to Screen Time &amp; Limits"
+#, fuzzy
+#| msgid "Rename to Screen Time &amp; Limits"
+msgid "Rename to Screen Time & Limits"
 msgstr "Rinomina in \"Tempo di utilizzo e limitazioni\""
 
 #: data/screentime-limits.metainfo.xml.in:92

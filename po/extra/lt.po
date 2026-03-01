@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-19 20:56+0000\n"
+"POT-Creation-Date: 2026-03-01 16:22+0000\n"
 "PO-Revision-Date: 2019-07-26 10:13+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://l10n.elementary.io/projects/switchboard/"
@@ -22,7 +22,9 @@ msgstr ""
 "X-Generator: Weblate 3.7.1\n"
 
 #: data/screentime-limits.metainfo.xml.in:10
-msgid "Screen Time &amp; Limits Settings"
+#, fuzzy
+#| msgid "Screen Time &amp; Limits Settings"
+msgid "Screen Time & Limits Settings"
 msgstr "Laiko prie ekrano ir jo apribojimų nustatymai"
 
 #: data/screentime-limits.metainfo.xml.in:11
@@ -81,7 +83,7 @@ msgstr ""
 
 #: data/screentime-limits.metainfo.xml.in:91
 #, fuzzy
-msgid "Rename to Screen Time &amp; Limits"
+msgid "Rename to Screen Time & Limits"
 msgstr "Laiko prie ekrano ir jo apribojimų nustatymai"
 
 #: data/screentime-limits.metainfo.xml.in:92
