@@ -15,7 +15,7 @@ Build-Depends: debhelper (>= 10.5.1),
                libpolkit-gobject-1-dev,
                libswitchboard-3-dev,
                meson (>= 0.46.1),
-               systemd,
+               systemd-dev,
                valac (>= 0.34.1)
 Standards-Version: 4.1.1
 Homepage: https://github.com/elementary/switchboard-plug-parental-controls
