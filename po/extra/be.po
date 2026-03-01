@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-19 20:56+0000\n"
+"POT-Creation-Date: 2026-03-01 16:22+0000\n"
 "PO-Revision-Date: 2025-07-28 13:55+0000\n"
 "Last-Translator: lenify <lenify@tutanota.com>\n"
 "Language-Team: Belarusian <https://l10n.elementaryos.org/projects/settings/"
@@ -21,7 +21,7 @@ msgstr ""
 "X-Generator: Weblate 5.11.4\n"
 
 #: data/screentime-limits.metainfo.xml.in:10
-msgid "Screen Time &amp; Limits Settings"
+msgid "Screen Time & Limits Settings"
 msgstr ""
 
 #: data/screentime-limits.metainfo.xml.in:11
@@ -79,7 +79,7 @@ msgid "New colorful avatar fallback"
 msgstr ""
 
 #: data/screentime-limits.metainfo.xml.in:91
-msgid "Rename to Screen Time &amp; Limits"
+msgid "Rename to Screen Time & Limits"
 msgstr ""
 
 #: data/screentime-limits.metainfo.xml.in:92

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-19 20:56+0000\n"
+"POT-Creation-Date: 2026-03-01 16:22+0000\n"
 "PO-Revision-Date: 2024-09-19 10:09+0000\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
@@ -20,7 +20,9 @@ msgstr ""
 "X-Generator: Weblate 5.6.2\n"
 
 #: data/screentime-limits.metainfo.xml.in:10
-msgid "Screen Time &amp; Limits Settings"
+#, fuzzy
+#| msgid "Screen Time &amp; Limits Settings"
+msgid "Screen Time & Limits Settings"
 msgstr "螢幕使用時間與限制設定值"
 
 #: data/screentime-limits.metainfo.xml.in:11
@@ -78,7 +80,9 @@ msgid "New colorful avatar fallback"
 msgstr "新的多彩備用代表頭像"
 
 #: data/screentime-limits.metainfo.xml.in:91
-msgid "Rename to Screen Time &amp; Limits"
+#, fuzzy
+#| msgid "Rename to Screen Time &amp; Limits"
+msgid "Rename to Screen Time & Limits"
 msgstr "重新命名為「螢幕使用時間與限制」"
 
 #: data/screentime-limits.metainfo.xml.in:92
