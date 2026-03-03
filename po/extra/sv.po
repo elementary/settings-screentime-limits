@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-01 16:22+0000\n"
-"PO-Revision-Date: 2025-10-30 09:55+0000\n"
+"PO-Revision-Date: 2026-03-04 10:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "parental-controls-plug-extra/sv/>\n"
@@ -20,8 +20,6 @@ msgstr ""
 "X-Generator: Weblate 5.11.4\n"
 
 #: data/screentime-limits.metainfo.xml.in:10
-#, fuzzy
-#| msgid "Screen Time &amp; Limits Settings"
 msgid "Screen Time & Limits Settings"
 msgstr "Inställningar för skärmtid och gränser"
 
@@ -83,8 +81,6 @@ msgid "New colorful avatar fallback"
 msgstr "Ny färgglad visningsbild som reserv"
 
 #: data/screentime-limits.metainfo.xml.in:91
-#, fuzzy
-#| msgid "Rename to Screen Time &amp; Limits"
 msgid "Rename to Screen Time & Limits"
 msgstr "Byt namn till Skärmtid och gränser"
 
