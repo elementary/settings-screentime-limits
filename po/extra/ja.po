@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-01 16:22+0000\n"
-"PO-Revision-Date: 2025-08-30 22:55+0000\n"
+"PO-Revision-Date: 2026-03-09 13:55+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementaryos.org/projects/settings/"
 "parental-controls-plug-extra/ja/>\n"
@@ -20,8 +20,6 @@ msgstr ""
 "X-Generator: Weblate 5.11.4\n"
 
 #: data/screentime-limits.metainfo.xml.in:10
-#, fuzzy
-#| msgid "Screen Time &amp; Limits Settings"
 msgid "Screen Time & Limits Settings"
 msgstr "スクリーンタイムと制限設定"
 
@@ -82,8 +80,6 @@ msgid "New colorful avatar fallback"
 msgstr "アバター画像未設定時に背景を色付きで表示するように変更"
 
 #: data/screentime-limits.metainfo.xml.in:91
-#, fuzzy
-#| msgid "Rename to Screen Time &amp; Limits"
 msgid "Rename to Screen Time & Limits"
 msgstr "“スクリーンタイムと制限設定”に名称変更"
 
