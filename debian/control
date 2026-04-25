@@ -1,7 +1,7 @@
 Source: io.elementary.settings.screentime-limits
 Section: x11
 Priority: optional
-Maintainer: elementary OS Team <builds@elementary.io>
+Maintainer: elementary <builds@elementary.io>
 Build-Depends: debhelper (>= 10.5.1),
                gettext,
                libaccountsservice-dev,
