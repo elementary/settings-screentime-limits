@@ -3,16 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-01 16:21+0000\n"
-"PO-Revision-Date: 2024-08-07 00:16+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
-"Language-Team: Armenian <https://l10n.elementary.io/projects/switchboard/"
-"switchboard-plug-parental-controls/hy/>\n"
+"PO-Revision-Date: 2026-06-16 04:56+0000\n"
+"Last-Translator: Automatic translation add-on <noreply-addon-"
+"autotranslate@weblate.org>\n"
+"Language-Team: Armenian <https://l10n.elementaryos.org/projects/settings/"
+"screentime-limits/hy/>\n"
 "Language: hy\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 2026.5\n"
 "X-Launchpad-Export-Date: 2017-02-12 06:27+0000\n"
 
 #: src/client/AppUnavailableDialog.vala:27
@@ -136,11 +137,11 @@ msgstr ""
 
 #: src/plug/Widgets/AppChooser.vala:18
 msgid "Search Applications"
-msgstr ""
+msgstr "Փնտրել ծրագրեր"
 
 #: src/plug/Widgets/AppChooser.vala:46
 msgid "Cancel"
-msgstr ""
+msgstr "Չեղարկել"
 
 #: src/plug/Widgets/ControlPage.vala:14
 msgid "Other Accounts"
@@ -172,7 +173,7 @@ msgstr ""
 
 #: src/plug/Widgets/ControlPage.vala:39
 msgid "Applications"
-msgstr ""
+msgstr "Ծրագրեր"
 
 #: src/plug/Widgets/ControlPage.vala:57
 msgid "Some settings require administrator rights to be changed"
