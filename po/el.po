@@ -3,32 +3,30 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-01 16:21+0000\n"
-"PO-Revision-Date: 2024-08-07 00:16+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
-"Language-Team: Greek <https://l10n.elementary.io/projects/switchboard/"
-"switchboard-plug-parental-controls/el/>\n"
+"PO-Revision-Date: 2026-06-28 22:16+0000\n"
+"Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
+"Language-Team: Greek <https://l10n.elementaryos.org/projects/settings/"
+"screentime-limits/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 2026.5\n"
 "X-Launchpad-Export-Date: 2017-02-20 06:04+0000\n"
 
 #: src/client/AppUnavailableDialog.vala:27
-#, fuzzy
-#| msgid "You are not permitted to run this application."
 msgid "You are not permitted to run this application"
-msgstr "Δεν σας επιτρέπεται να εκτελέσετε αυτήν την εφαρμογή."
+msgstr "Δεν επιτρέπεται να εκτελέσετε αυτήν την εφαρμογή"
 
 #: src/client/AppUnavailableDialog.vala:28
 msgid "An administrator has restricted your access to this application."
 msgstr ""
 
 #: src/client/Client.vala:161
-#, fuzzy, c-format
+#, c-format
 msgid "This computer will lock after %s."
-msgstr "Ο υπολογιστής θα κλειδώσει μετά από %s %s. %s"
+msgstr "Ο υπολογιστής θα κλειδώσει μετά από %s."
 
 #: src/client/Client.vala:163
 #, c-format
@@ -60,14 +58,12 @@ msgid "Blocked Apps"
 msgstr ""
 
 #: src/plug/Views/AppsView.vala:38
-#, fuzzy
-#| msgid "Add Prevented Apps…"
 msgid "Add Blocked App…"
-msgstr "Προσθήκη απετραμμένων εφαρμογών..."
+msgstr "Προσθήκη αποκλεισμένης εφαρμογής…"
 
 #: src/plug/Views/AppsView.vala:53
 msgid "Clear All"
-msgstr "Εκκαθάριση όλων"
+msgstr "Απαλοιφή όλων"
 
 #: src/plug/Views/AppsView.vala:77
 msgid "Allow access to these apps with admin permission:"
@@ -76,19 +72,19 @@ msgstr ""
 
 #: src/plug/Views/InternetView.vala:29
 msgid "Blocked Websites"
-msgstr ""
+msgstr "Αποκλεισμένοι ιστότοποι"
 
 #: src/plug/Views/InternetView.vala:40
 msgid "Block URL"
-msgstr ""
+msgstr "Αποκλεισμός URL"
 
 #: src/plug/Views/InternetView.vala:50
 msgid "example.com"
-msgstr ""
+msgstr "example.com"
 
 #: src/plug/Views/InternetView.vala:79 src/plug/Views/InternetView.vala:193
 msgid "Invalid URL"
-msgstr "Μη έγκυση διεύθυνση"
+msgstr "Μη έγκυρο URL"
 
 #: src/plug/Views/InternetView.vala:187
 msgid "The specified URL already exists in list"
@@ -197,9 +193,8 @@ msgid "Configure time limits and restrict application usage"
 msgstr "Ρύθμιση χρονικών ορίων και περιορισμός χρήσης εφαρμογών"
 
 #: src/plug/Plug.vala:64
-#, fuzzy
 msgid "Limit computer use"
-msgstr "Περιορισμός χρήσης υπολογιστή:"
+msgstr "Περιορισμός χρήσης υπολογιστή"
 
 #: src/plug/Plug.vala:65
 msgid "Prevent website access"
