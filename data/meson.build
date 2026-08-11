@@ -5,16 +5,28 @@ configuration_data.set('CLIENT_PATH', join_paths(client_path, client_name))
 
 dbus_dep = dependency('dbus-1')
 
-systemdunitdir = get_option('systemdunitdir')
-if systemdunitdir == ''
-    systemdunitdir = systemd_dep.get_pkgconfig_variable('systemdsystemunitdir')
+systemd_system_unit_dir = get_option('systemdsystemunitdir')
+if systemd_system_unit_dir == ''
+    systemd_system_unit_dir = systemd_dep.get_variable('systemdsystemunitdir', pkgconfig_define: ['rootprefix', prefix])
 endif
+
+systemd_user_unit_dir = get_option('systemduserunitdir')
+if systemd_user_unit_dir == ''
+    systemd_user_unit_dir = systemd_dep.get_variable('systemduserunitdir', pkgconfig_define: ['prefix', prefix])
+endif
+
+configure_file(
+    input: 'pantheon-parental-controls-client.service.in',
+    output: 'pantheon-parental-controls-client.service',
+    configuration: configuration_data,
+    install_dir: systemd_user_unit_dir
+)
 
 configure_file(
     input: 'pantheon-parental-controls.service.in',
     output: 'pantheon-parental-controls.service',
     configuration: configuration_data,
-    install_dir: systemdunitdir
+    install_dir: systemd_system_unit_dir
 )
 
 i18n.merge_file(
@@ -30,13 +42,6 @@ configure_file(
     output: 'org.pantheon.ParentalControls.service',
     configuration: configuration_data,
     install_dir: dbus_dep.get_pkgconfig_variable('system_bus_services_dir', define_variable: ['datadir', datadir])
-)
-
-configure_file(
-    input: 'pantheon-parental-controls-client.desktop.in',
-    output: 'pantheon-parental-controls-client.desktop',
-    configuration: configuration_data,
-    install_dir: join_paths(datadir, 'applications')
 )
 
 install_data(

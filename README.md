@@ -17,6 +17,7 @@ You'll need the following dependencies:
 * libmalcontent-0-dev
 * libpolkit-gobject-1-dev
 * libswitchboard-3-dev
+* libsystemd-dev
 * meson >= 0.46.1
 * valac
 
