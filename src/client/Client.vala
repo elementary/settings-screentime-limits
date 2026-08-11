@@ -97,6 +97,8 @@ namespace PC.Client {
 
             api.launch.connect (on_launch);
             api.show_timeout.connect (on_show_timeout);
+
+            hold ();
         }
 
         private void on_authorize (string username, string action_id, string[] _args) {
