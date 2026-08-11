@@ -2,7 +2,7 @@ Source: io.elementary.settings.screentime-limits
 Section: x11
 Priority: optional
 Maintainer: elementary <builds@elementary.io>
-Build-Depends: debhelper (>= 10.5.1),
+Build-Depends: debhelper-compat (= 13),
                gettext,
                libaccountsservice-dev,
                libadwaita-1-dev,
@@ -14,7 +14,7 @@ Build-Depends: debhelper (>= 10.5.1),
                libmalcontent-0-dev,
                libpolkit-gobject-1-dev,
                libswitchboard-3-dev,
-               meson (>= 0.46.1),
+               meson (>= 0.58.0),
                systemd-dev,
                valac (>= 0.34.1)
 Standards-Version: 4.1.1
