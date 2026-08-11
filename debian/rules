@@ -10,13 +10,7 @@
 #export DH_VERBOSE=1
 
 %:
-	dh $@ --with systemd
-
-override_dh_systemd_enable:
-	dh_systemd_enable -pio.elementary.settings.screentime-limits
-
-override_dh_systemd_start:
-	dh_systemd_start -pio.elementary.settings.screentime-limits
+	dh $@
 
 override_dh_missing:
 	dh_missing --fail-missing
