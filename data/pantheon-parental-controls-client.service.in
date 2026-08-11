@@ -1,0 +1,12 @@
+[Unit]
+Description=Pantheon Screen Time & Limits Client
+After=gnome-session-initialized.target
+
+[Install]
+WantedBy=gnome-session-initialized.target
+
+[Service]
+Type=exec
+ExecStart=@CLIENT_PATH@
+Restart=on-failure
+Slice=session.slice
