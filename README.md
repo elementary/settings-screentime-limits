@@ -17,8 +17,8 @@ You'll need the following dependencies:
 * libmalcontent-0-dev
 * libpolkit-gobject-1-dev
 * libswitchboard-3-dev
-* libsystemd-dev
 * meson >= 0.58.0
+* systemd-dev
 * valac
 
 Run `meson` to configure the build environment and then `ninja` to build
