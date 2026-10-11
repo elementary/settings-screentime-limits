@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-parental-controls\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-01 16:21+0000\n"
-"PO-Revision-Date: 2025-03-01 14:57+0000\n"
+"PO-Revision-Date: 2026-10-11 07:35+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
-"Language-Team: Japanese <https://l10n.elementary.io/projects/settings/"
-"switchboard-plug-parental-controls/ja/>\n"
+"Language-Team: Japanese <https://l10n.elementaryos.org/projects/settings/"
+"screentime-limits/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.9.2\n"
+"X-Generator: Weblate 2026.5\n"
 "X-Launchpad-Export-Date: 2017-02-17 06:09+0000\n"
 
 #: src/client/AppUnavailableDialog.vala:27
@@ -74,7 +74,7 @@ msgstr "管理者の許可でこれらのアプリにアクセスすることを
 
 #: src/plug/Views/InternetView.vala:29
 msgid "Blocked Websites"
-msgstr "制限する Web サイト"
+msgstr "制限するウェブサイト"
 
 #: src/plug/Views/InternetView.vala:40
 msgid "Block URL"
@@ -160,8 +160,8 @@ msgid ""
 "Supervise and manage device usage with limits on Screen Time, websites, and "
 "apps. Some limits may be bypassed with an administrator's permission."
 msgstr ""
-"スクリーンタイム、Web サイト、アプリに制限を設けて、デバイス使用状況を管理し"
-"ます。一部の制限は管理者権限で無視できます。"
+"スクリーンタイム、ウェブサイト、アプリに制限を設けて、デバイス使用状況を管理"
+"します。一部の制限は管理者権限で無視できます。"
 
 #: src/plug/Widgets/ControlPage.vala:18
 msgid "My Account"
@@ -172,8 +172,8 @@ msgid ""
 "Manage your own device usage by setting limits on Screen Time, websites, and "
 "apps."
 msgstr ""
-"スクリーンタイム、Web サイト、アプリに制限を設けることで、デバイスの利用を自"
-"分で管理できます。"
+"スクリーンタイム、ウェブサイト、アプリに制限を設けることで、デバイスの利用を"
+"自分で管理できます。"
 
 #: src/plug/Widgets/ControlPage.vala:37
 msgid "Screen Time"
@@ -205,11 +205,11 @@ msgstr "コンピューターの利用を制限"
 
 #: src/plug/Plug.vala:65
 msgid "Prevent website access"
-msgstr "Web サイトへのアクセスを防止"
+msgstr "ウェブサイトへのアクセスを防ぐ"
 
 #: src/plug/Plug.vala:66
 msgid "Prevent application access"
-msgstr "アプリケーションへのアクセスを防止"
+msgstr "アプリケーションへのアクセスを防ぐ"
 
 #, c-format
 #~ msgid "Prevent %s from using these apps:"
