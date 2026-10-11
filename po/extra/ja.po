@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-01 16:22+0000\n"
-"PO-Revision-Date: 2026-03-09 13:55+0000\n"
+"PO-Revision-Date: 2026-10-11 07:35+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementaryos.org/projects/settings/"
 "parental-controls-plug-extra/ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.11.4\n"
+"X-Generator: Weblate 2026.5\n"
 
 #: data/screentime-limits.metainfo.xml.in:10
 msgid "Screen Time & Limits Settings"
@@ -97,7 +97,7 @@ msgstr "スクリーンタイムビューのデザインを変更"
 
 #: data/screentime-limits.metainfo.xml.in:95
 msgid "Fix an issue with removing URLs from restricted websites"
-msgstr "制限された Web サイトから URL を削除する際の不具合を修正"
+msgstr "制限されたウェブサイトから URL を削除する際の不具合を修正"
 
 #: data/screentime-limits.metainfo.xml.in:96
 msgid "Reliably apply time restrictions"
